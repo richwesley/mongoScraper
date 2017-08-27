@@ -63,7 +63,7 @@ div, h1, h2, h3, h4, p {
 }
 
 .article-container {
-  background: url('/img/coop2.jpg') no-repeat center center fixed;
+  background: url('./img/coop2.jpg') no-repeat center center fixed;
 }
 
 .jumbotron {
