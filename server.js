@@ -41,8 +41,8 @@ if (process.env.MONGODB_URI) {
 }
 var db = mongoose.connection;
 
-/*mongoose.connect("mongodb://heroku_dnbl2f3n:etrnrrvnoe7m1qmtae0jret6ss@ds111882.mlab.com:11882/heroku_dnbl2f3n");
-var db = mongoose.connection;*/
+mongoose.connect("mongodb://heroku_nbk60vkv:jtcr7t1ke5beo2j435qaivir57@ds161823.mlab.com:61823/heroku_nbk60vkv");
+var db = mongoose.connection;
 
 db.on("error", function(error) {
   console.log("Mongoose Error: ", error);
